@@ -7,6 +7,7 @@ class Dancer
   FancyDance::ClassMethods 
     include
   FancyDance::InstanceMethods
+end 
   
   extend MetaDancing
   
