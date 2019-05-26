@@ -3,12 +3,6 @@ require_relative './dance_module.rb'
 
 class Dancer 
   
-  extend
-  FancyDance::ClassMethods 
-    include
-  FancyDance::InstanceMethods
-end 
-  
   extend MetaDancing
   
   include Dance 
@@ -18,5 +12,4 @@ end
   def initialize(name)
     @name = name 
   end 
-end 
 end 
